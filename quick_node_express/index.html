@@ -5,8 +5,11 @@
    <title>Node Workshop</title>
  </head>
  <body>
-     <h1 style="color: blue;">
-        Express: HELLO WORLD
-     </h1>
+    <h1>Mediciones de temperatura</h1>
+    <ul>
+     <% for(var i=0; i < data.length; i++) { %>
+        <li><%= data[i].temperature %>ºC</li>
+      <% } %>
+    </ul>
  </body>
 </html>
